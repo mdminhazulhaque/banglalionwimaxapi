@@ -4,22 +4,23 @@ This (dump) API allows you to fetch account data (credit, internet balance etc) 
 
 ## Requirment
 
+* python3
 * BeautifulSoup
 * libxml
 
 ## How to Run
 
 ```bash
-python3 banglalionwimaxapi.py
+$ banglalionwimaxapi.py
 usage: banglalionwimaxapi.py -u USER -p PSWD
 banglalionwimaxapi.py: error: the following arguments are required: -u, -p
 
 # wrong username and password
-python3 banglalionwimaxapi.py -u raj.mhs -p 123
+$ banglalionwimaxapi.py -u raj.minhaz -p 87654321
 Invalid Username or Password. Check and retry.
 
 # correct username and password
-python3 banglalionwimaxapi -u raj.minhaz -p 12345678
+$ banglalionwimaxapi -u raj.minhaz -p 12345678
 {
   "databank": "Unlimited",
   "walletbank_till": "2018-12-31 00:00:00",
