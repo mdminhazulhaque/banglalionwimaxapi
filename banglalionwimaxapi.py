@@ -7,7 +7,7 @@ __license__ = "GPLv3"
 Copyright (c) 2018 Md. Minhazul Haque
 
 This file is part of mdminhazulhaque/banglalionwimaxapi
-(see {https://github.com/mdminhazulhaque/banglalionwimaxapi).
+(see https://github.com/mdminhazulhaque/banglalionwimaxapi).
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
